@@ -2,13 +2,22 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const SportsCar= (props) =>{
-    const superCarListItems = props.superCarList.map(superCarName =>{
+
+    const sportsCarListItems = props.sportsCarList.map(sportsCar =>{
         return (
-            <Link to={`/supercar/$`}></Link>
+            <li>
+            <Link to={`/sportscar/${sportsCar.name}`}>{sportsCar.name}</Link>
+            </li>
         )
+        
     });
     return(
-        
+        <div>
+            <h1>Sports Cars</h1>
+            <ul>
+                {sportsCarListItems}
+            </ul>
+        </div>
     )
 
 }
