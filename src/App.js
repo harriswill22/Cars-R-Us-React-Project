@@ -29,16 +29,18 @@ class App extends Component {
         },
         {
           "name":"RS5", 
-          "price": "100,000",
+          "price": "120,000",
           "HorsePower": "566 hp",
-          "Torque": "495"
+          "Torque": "495",
+          "img": "https://cdn.motor1.com/images/mgl/Nw34l/s4/2018-audi-rs5-coupe-first-drive.jpg"
         
       },
       {
         "name":"M4", 
         "price": "100,000",
         "HorsePower": "566 hp",
-        "Torque": "495"
+        "Torque": "495",
+        "img": "https://media.ed.edmunds-media.com/bmw/m4/2018/ot/2018_bmw_m4_LIFE1_ot_425171_717.jpg"
       
     },
 
