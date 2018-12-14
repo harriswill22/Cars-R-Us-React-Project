@@ -5,20 +5,22 @@ import SportsCar from './SportsCar';
 import SuperCar from './SuperCar';
 import HyperCar from './HyperCar';
 import SportsCarInfo from './SportsCarInfo';
+import Home from './Home';
+import SuperCarInfo from './SuperCarInfo';
 
 import {
   BrowserRouter as Router, // Watches for changes to URL
   Route,                   // Renders components based on the specific URL
   //Link                     // Changes the URL so the Router sees it
 } from 'react-router-dom';
-import Home from './Home';
+
 class App extends Component {
   constructor(props) {
     super(props);
     this.state ={
       sportsCar:[
         {
-          "name":"C63", 
+          "name":"Mercedes C63", 
           
             "price": "100,000$",
             "HorsePower": "566 Hp",
@@ -28,7 +30,7 @@ class App extends Component {
           
         },
         {
-          "name":"RS5", 
+          "name":"Audi RS5", 
           "price": "120,000",
           "HorsePower": "566 hp",
           "Torque": "495",
@@ -36,7 +38,7 @@ class App extends Component {
         
       },
       {
-        "name":"M4", 
+        "name":"BMW M4", 
         "price": "100,000",
         "HorsePower": "566 hp",
         "Torque": "495",
@@ -44,7 +46,63 @@ class App extends Component {
       
     },
 
-      ]
+    {
+      "name":"Acura NSX", 
+      "price": "100,000",
+      "HorsePower": "566 hp",
+      "Torque": "495",
+      "img": "https://media.ed.edmunds-media.com/bmw/m4/2018/ot/2018_bmw_m4_LIFE1_ot_425171_717.jpg"
+    
+  },
+  {
+    "name":"Chevrolet Corvette ", 
+    "price": "100,000",
+    "HorsePower": "566 hp",
+    "Torque": "495",
+    "img": "https://media.ed.edmunds-media.com/bmw/m4/2018/ot/2018_bmw_m4_LIFE1_ot_425171_717.jpg"
+  
+},
+{
+  "name":"Ford Mustang ", 
+  "price": "100,000",
+  "HorsePower": "566 hp",
+  "Torque": "495",
+  "img": "https://media.ed.edmunds-media.com/bmw/m4/2018/ot/2018_bmw_m4_LIFE1_ot_425171_717.jpg"
+
+},
+{
+  "name":"Nissan GTR", 
+  "price": "100,000",
+  "HorsePower": "566 hp",
+  "Torque": "495",
+  "img": "https://media.ed.edmunds-media.com/bmw/m4/2018/ot/2018_bmw_m4_LIFE1_ot_425171_717.jpg"
+
+},
+
+],
+superCar:[ {
+  
+  "name":"Nissan GTR", 
+  "price": "100,000",
+  "HorsePower": "566 hp",
+  "Torque": "495",
+  "img": "https://media.ed.edmunds-media.com/bmw/m4/2018/ot/2018_bmw_m4_LIFE1_ot_425171_717.jpg"
+
+},
+
+],
+
+hyperCar:[ {
+  "name":"Bugottii", 
+  "price": "100,000",
+  "HorsePower": "566 hp",
+  "Torque": "495",
+  "img": "https://media.ed.edmunds-media.com/bmw/m4/2018/ot/2018_bmw_m4_LIFE1_ot_425171_717.jpg"
+
+},
+
+]
+  
 
     }
   }
@@ -65,8 +123,16 @@ class App extends Component {
         }}/>
 
 
-        <Route path="/supercar" component={SuperCar}/>
-        <Route path="/hypercar" component={HyperCar}/>
+        <Route path="/supercar" render={(props) =>{
+          return <SuperCar superCarList={this.state.superCar} {...props}/>
+        }}/>
+        <Route path="/supercar/:superCarName" render={(props) =>{
+          return <SuperCarInfo superCarInfo={this.state.superCar}{...props}/>
+        }}/>
+          
+        <Route path="/hypercar" render={(props) =>{
+          return <HyperCar hyperCarList={this.state.hyperCar}{...props}/>
+        }}/>
       </div>  
     </Router>
     );
