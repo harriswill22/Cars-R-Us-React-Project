@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const HyperCar= (props) =>{
-    const hyperCarListItems = props.hyperCarList.map(hyperCar =>{
+    const hyperCarListItem = props.hyperCarList.map(hyperCar =>{
         return(
             <li>
                 <Link to={`/hypercar/${hyperCar.name}`}>{hyperCar.name}</Link>
