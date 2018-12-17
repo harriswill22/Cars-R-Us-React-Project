@@ -15,9 +15,9 @@ const SportsCarInfo = (props) =>{
         <ul>
         <h1>{carDetail.name}</h1>
         <img src={carDetail.img} alt={carDetail.name}></img>
-        <h3>{carDetail.price}</h3>
-        <h3>{carDetail.Torque}</h3>
-        <h3>{carDetail.HorsePower}</h3>
+        <h3>Price:{carDetail.price}</h3>
+        <h3>Torque:{carDetail.Torque}</h3>
+        <h3>Horsepower:{carDetail.HorsePower}</h3>
         </ul>
         </div>
     )
