@@ -9,10 +9,10 @@ const SuperCarInfo = (props) =>{
     })
 
     return(
-        <div>
+        <div className="SingleCarPage">
         <ul>
         <h1>{carDetail.name}</h1>
-        <img src={carDetail.img}></img>
+        <img src={carDetail.img} alt={carDetail.name}></img>
         <h3>{carDetail.price}</h3>
         <h3>{carDetail.Torque}</h3>
         <h3>{carDetail.HorsePower}</h3>

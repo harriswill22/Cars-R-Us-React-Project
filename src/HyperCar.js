@@ -4,13 +4,13 @@ import { Link } from 'react-router-dom';
 const HyperCar= (props) =>{
     const hyperCarListItems = props.hyperCarList.map(hyperCar =>{
         return(
-            <li>
+            <li className="CarPage">
                 <Link to={`/hypercar/${hyperCar.name}`}>{hyperCar.name}</Link>
             </li>
         )
     });
     return (
-        <div>
+        <div className="CarTitle">
             <h1>Hyper Cars</h1>
             <ul>
                 {hyperCarListItems}

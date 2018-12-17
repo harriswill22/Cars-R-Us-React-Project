@@ -6,14 +6,14 @@ const SuperCar= (props) =>{
 
   const superCarListItems = props.superCarList.map(superCar =>{
         return (
-            <li>
+            <li className="CarPage">
             <Link to={`/supercar/${superCar.name}`}>{superCar.name}</Link>
             </li>
         )
         
     });
     return(
-        <div>
+        <div className="CarTitle">
             <h1>Super Cars</h1>
             <ul>
                 {superCarListItems}

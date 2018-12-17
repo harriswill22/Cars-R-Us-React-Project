@@ -5,14 +5,14 @@ const SportsCar= (props) =>{
 
     const sportsCarListItems = props.sportsCarList.map(sportsCar =>{
         return (
-            <li>
+            <li className="CarPage">
             <Link to={`/sportscar/${sportsCar.name}`}>{sportsCar.name}</Link>
             </li>
         )
         
     });
     return(
-        <div>
+        <div className="CarTitle">
             <h1>Sports Cars</h1>
             <ul>
                 {sportsCarListItems}

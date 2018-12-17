@@ -5,7 +5,7 @@ Link
 
 const NavBar = (props) =>{
     return (
-        <ul>
+        <ul className="Nav">
             <li><Link to="/">Home</Link></li>
             <li><Link to="/sportscar">Sports Car</Link></li>
             <li><Link to="/supercar">Super Car</Link></li>
