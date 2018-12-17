@@ -8,7 +8,7 @@ const Result = (car) => {
 
 const SearchResults = (props) => {
     return (
-        <ul>
+        <ul className="results">
             {props.results.map(Result)}
         </ul>
     );
