@@ -29,6 +29,9 @@ body{
     color: tomato;
     text-decoration:none;
 }
+.Nav li:hover{
+    background-color: rgb(5, 28, 44);
+}
 
 .Nav li {
     color:#fff;
@@ -68,6 +71,9 @@ body{
 .CarTitle a{
     text-decoration:none;
     color: tomato;
+}
+.CarTitle a:hover{
+    color: white;
 }
 
 .SingleCarPage{
