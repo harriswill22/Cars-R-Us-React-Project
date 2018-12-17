@@ -7,24 +7,46 @@ html {
 *:after {
     box-sizing: inherit;
 }
-
+body{
+   background-color: rgb(40, 93, 109)
+}
 
 .Home h1{
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px hotpink solid;
+    color: #fff
+    
 }
 .Nav{
-    display: flex;
-    align-items: center;
-    flex-direction: row;
+    background: whitesmoke;
+    box-shadow:0px 1px 10px 10px #ddd;
+    height:auto;
+    text-align:center;
+    width:100%;
+}
+.Nav a{
+    color: tomato;
+    text-decoration:none;
+}
+
+.Nav li {
+    color:#fff;
+    display:inline-block;
+    height:60px;
+    line-height:60px;
+    margin:0px;
+    padding:0px 15px;
+    text-decoration:none;
+    transition: color 0.3s ease-in;
+
 }
 
 .searchBox{
     display: flex;
     justify-content: center;
-    border: 1px hotpink solid;
+    size: 100%;
+    
 }
 .CarPage h1{
     display: flex;
@@ -34,17 +56,21 @@ html {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    border: 1px blue solid;
+    
 
     
 }
 .CarTitle h1{
     display: flex;
     justify-content: center;
+    color: #fff
+}
+.CarTitle a{
+    text-decoration:none;
+    color: tomato;
 }
 
 .SingleCarPage{
-    border: 1px green solid;
     display: flex;
     justify-content: center;
 
@@ -52,8 +78,22 @@ html {
 .SingleCarPage h1{
     display: flex;
     justify-content: center;
+    color: #fff;
+}
+
+.SingleCarPage h3{
+    color: tomato;
 }
 
 .SingleCarPage img{
     max-width: 700px;
+}
+
+.results{
+    width: 200px;
+    color: tomato;
+}
+.Home input{
+    display: flex;
+    justify-content: center;
 }
