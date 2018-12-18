@@ -23,7 +23,7 @@ class App extends Component {
       sportsCar:[
         {
           "name":"Mercedes C63 AMG", 
-            "price": "80,000$",
+            "price": "$80,000$",
             "HorsePower": "503-Hp",
             "Torque": "516-lb",
             "ZeroTo60": "3.8",
@@ -32,7 +32,7 @@ class App extends Component {
         },
         {
           "name":"Audi RS5", 
-          "price": "90,000",
+          "price": "$90,000",
           "HorsePower": "566-hp",
           "Torque": "495-lb",
           "ZeroTo60": "3.7",
@@ -41,7 +41,7 @@ class App extends Component {
       },
       {
         "name":"BMW M4", 
-        "price": "75,000",
+        "price": "$75,000",
         "HorsePower": "454-hp",
         "Torque": "406-lb",
         "ZeroTo60": "3.9",
@@ -51,7 +51,7 @@ class App extends Component {
 
     {
       "name":"Acura NSX", 
-      "price": "156,000",
+      "price": "$156,000",
       "HorsePower": "573 hp",
       "Torque": "476-lb",
       "ZeroTo60": "3.0",
@@ -69,7 +69,7 @@ class App extends Component {
 },
 {
   "name":"Ford Mustang GT350 ", 
-  "price": "100,000",
+  "price": "$100,000",
   "HorsePower": "526-hp",
   "Torque": "429-lb",
   "ZeroTo60": "3.9",
@@ -78,7 +78,7 @@ class App extends Component {
 },
 {
   "name":"Nissan GTR", 
-  "price": "99,990",
+  "price": "$99,990",
   "HorsePower": "600-hp",
   "Torque": "495-lb",
   "ZeroTo60": "2.9",
@@ -163,7 +163,7 @@ hyperCar:[ {
 
 {
   "name":"McLaren P1", 
-  "price": "1,350,000 ",
+  "price": "$1,350,000 ",
   "HorsePower": "1,479-hp",
   "Torque": "664-lb.",
   "ZeroTo60": "2.6",
@@ -184,7 +184,7 @@ hyperCar:[ {
 
 {
   "name":"Koenigsegg One:1", 
-  "price": "1,800,000",
+  "price": "$1,800,000",
   "HorsePower": "1341-hp",
   "Torque": "1011-lb.",
   "ZeroTo60": "2.1",
