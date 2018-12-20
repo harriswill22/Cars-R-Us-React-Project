@@ -15,7 +15,8 @@ background-color: rgb(5, 28, 44)
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #fff
+    color: #fff;
+    font-family: 'Permanent Marker', cursive;
     
 }
 .gif{
@@ -37,6 +38,7 @@ background-color: rgb(5, 28, 44)
 .Nav a{
     color: tomato;
     text-decoration:none;
+   Font-family: 'Permanent Marker', cursive;
 }
 .Nav li:hover{
     background-color: rgb(5, 28, 44);
@@ -63,6 +65,7 @@ background-color: rgb(5, 28, 44)
 .CarPage h1{
     display: flex;
     justify-items: center;
+    
 }
 .CarPage{
     display: flex;
@@ -75,7 +78,8 @@ background-color: rgb(5, 28, 44)
 .CarTitle h1{
     display: flex;
     justify-content: center;
-    color: #fff
+    color: #fff;
+    font-family: 'Concert One', cursive;
 }
 .CarTitle a{
     text-decoration:none;
@@ -88,12 +92,14 @@ background-color: rgb(5, 28, 44)
 .SingleCarPage{
     display: flex;
     justify-content: center;
+    font-family: 'Zilla Slab', serif;
 
 }
 .SingleCarPage h1{
     display: flex;
     justify-content: center;
     color: #fff;
+    font-family: 'Zilla Slab', serif;
 }
 
 .SingleCarPage h3{
