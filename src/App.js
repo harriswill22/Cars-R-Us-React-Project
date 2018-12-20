@@ -69,7 +69,7 @@ class App extends Component {
 },
 {
   "name":"Ford Mustang GT350 ", 
-  "price": "$100,000",
+  "price": "$65,000",
   "HorsePower": "526-hp",
   "Torque": "429-lb",
   "ZeroTo60": "3.9",
