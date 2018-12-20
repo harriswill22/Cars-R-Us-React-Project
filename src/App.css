@@ -79,7 +79,7 @@ background-color: rgb(5, 28, 44)
     display: flex;
     justify-content: center;
     color: #fff;
-    font-family: 'Concert One', cursive;
+    Font-family: 'Permanent Marker', cursive;
 }
 .CarTitle a{
     text-decoration:none;
@@ -92,14 +92,13 @@ background-color: rgb(5, 28, 44)
 .SingleCarPage{
     display: flex;
     justify-content: center;
-    font-family: 'Zilla Slab', serif;
 
 }
 .SingleCarPage h1{
     display: flex;
     justify-content: center;
     color: #fff;
-    font-family: 'Zilla Slab', serif;
+    Font-family: 'Permanent Marker', cursive;
 }
 
 .SingleCarPage h3{
@@ -108,6 +107,7 @@ background-color: rgb(5, 28, 44)
 
 .SingleCarPage img{
     max-width: 700px;
+    font-family: 'Kodchasan', sans-serif;
 }
 
 .results{
