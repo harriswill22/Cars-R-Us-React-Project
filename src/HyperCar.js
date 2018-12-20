@@ -12,6 +12,9 @@ const HyperCar= (props) =>{
     return (
         <div className="CarTitle">
             <h1>Hyper Cars</h1>
+            <div className="gif">
+                <img src="https://media1.giphy.com/media/Ek2Bt0skLJN0Q/giphy.gif?cid=3640f6095c1ba8bb73687a5877f81d7e"/>
+                </div>
             <ul>
                 {hyperCarListItems}
             </ul>
